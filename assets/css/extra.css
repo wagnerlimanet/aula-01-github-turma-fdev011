@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+  }
+
+/*  tamanhos de fontes */
+.small {
+    margin: 10px 0px;
+    font-size: 10px;
+  }
+
+.medium {
+    margin: 10px 0px;
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+.large {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  
+/* iphone xr */
+@media screen and (max-width: 828px) {
+  #tabs ul li {
+    font-size: 0.9em;
+    }
+  }
+
+/* visual do celular */
+@media screen and (max-width: 960px) {
+    .main-header {
+      padding: 15px;
+      height: 110px !important;
+      }
+
+    .main-header img {
+      margin-left: -25px !important;
+      }
+
+    .hidden-sm {
+        display: none;
+      }
+
+    .features-content h4 i {
+        display: inline;
+        }
+
+    .features { 
+        margin-top: -170px;
+        }
+
+    .features-content {
+        width: 106%; 
+        margin-left: -10px; 
+        }
+
+    .fontcont, section.coming-soon .continer .counter span {
+      font-size: 12px !important;
+      }
+
+    .tabs-content {
+      text-align: left;
+      margin-top: 25px;
+      }
+
+    .section.video .left-content h4 {
+      font-size: 26px;
+      }
+
+    .video-item .video-caption h4 {
+      font-size: 14px;
+      }
+
+    .tabs-content p, .medium, .content-hide p {
+      font-size: 16px !important;
+      }
+
+    .section.coming-soon {
+      padding-top: 0;
+      }
+
+    section.video {
+      padding-top: 75px;
+      }
+}
